@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import {
-  ArrowUp, Github, Linkedin, Mail, MapPin, Moon, Sun, ExternalLink,
+  ArrowUp, Mail, MapPin, Moon, Sun, ExternalLink,
   Cloud, Code2, Database, Sparkles, Shield, BriefcaseBusiness, Award
 } from "lucide-react";
 import { roles, stats, skills, experience, projects, certifications, achievements } from "./data/portfolio";
@@ -199,7 +199,7 @@ function Projects() {
             </ul>
             <div className="mt-6 flex gap-3">
               <a href={project.live} className="btn-primary px-4 py-2 text-sm">Live Demo <ExternalLink size={14} /></a>
-              <a href={project.github} className="btn-secondary px-4 py-2 text-sm"><Github size={14} /> GitHub</a>
+              <a href={project.github} className="btn-secondary px-4 py-2 text-sm"><Code2 size={14} /> GitHub</a>
             </div>
           </article>
         ))}
@@ -236,8 +236,8 @@ function Contact() {
           <div className="space-y-4 text-slate-300">
             <p className="flex gap-3"><MapPin className="text-sky-300" /> Toronto, Ontario, Canada</p>
             <p className="flex gap-3"><Mail className="text-sky-300" /> <a href="mailto:tantohtelmah@gmail.com">tantohtelmah@gmail.com</a></p>
-            <p className="flex gap-3"><Linkedin className="text-sky-300" /> <a href="https://www.linkedin.com" target="_blank">LinkedIn</a></p>
-            <p className="flex gap-3"><Github className="text-sky-300" /> <a href="https://github.com/tantohtelmah" target="_blank">github.com/tantohtelmah</a></p>
+            <p className="flex gap-3"><span className="text-sky-300">💼</span> <a href="https://www.linkedin.com" target="_blank">LinkedIn</a></p>
+            <p className="flex gap-3"><Code2 className="text-sky-300" /> <a href="https://github.com/tantohtelmah" target="_blank">github.com/tantohtelmah</a></p>
           </div>
         </div>
 
@@ -256,11 +256,11 @@ function Contact() {
   );
 }
 
-function GithubWidget() {
+function Code2Widget() {
   return (
     <section className="section pt-0">
       <div className="glass rounded-3xl p-8">
-        <h3 className="mb-5 text-2xl font-black text-white">GitHub Activity</h3>
+        <h3 className="mb-5 text-2xl font-black text-white">Code2 Activity</h3>
         <div className="grid grid-cols-12 gap-2">
           {Array.from({ length: 96 }).map((_, i) => (
             <span key={i} className={`h-4 rounded ${i % 5 === 0 ? "bg-purple-400/70" : i % 3 === 0 ? "bg-sky-400/50" : "bg-white/10"}`} />
@@ -305,7 +305,7 @@ export default function App() {
       <Projects />
       <CardsSection id="certifications" eyebrow="Certifications" title="Professional Development" items={certifications} />
       <CardsSection id="achievements" eyebrow="Achievements" title="Highlights" items={achievements} />
-      <GithubWidget />
+      <Code2Widget />
       <Contact />
       <footer className="border-t border-white/10 px-6 py-8 text-center text-sm text-slate-400">
         © {new Date().getFullYear()} Telmah Kinyuy Tantoh. Built with React, Tailwind CSS, and Vite.
