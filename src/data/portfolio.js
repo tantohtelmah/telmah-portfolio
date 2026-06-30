@@ -69,6 +69,21 @@ export const projects = [
     features: ["Spatial reasoning", "Pseudo-address generation", "Geospatial analysis"],
     live: "#",
     github: "#"
+  },
+  {
+    title: "TenderOps AI",
+    description: "An AI-powered human-in-the-loop assistant that automates commercial tender workflows by validating vendor qualifications, analyzing bid requirements, generating quotations, drafting contracts, and verifying invoices before payment.",
+    tech: ["Python", "FastAPI", "OpenAI API", "React", "PostgreSQL"],
+    features: [
+      "Vendor qualification verification",
+      "Tender document analysis",
+      "Automated quote generation",
+      "AI-assisted contract drafting",
+      "Invoice and payment validation",
+      "Human approval workflow"
+    ],
+    live: "https://youtu.be/4n7s4KRU8CM",
+    github: "https://github.com/tantohtelmah/tenderops-ai"
   }
 ];
 
