@@ -27,7 +27,7 @@ export const experience = [
   {
     role: "Frontend Developer",
     company: "TradeBinder",
-    date: "Dec 2025 – May 2025",
+    date: "Dec 2025 – May 2026",
     points: ["Angular", "Ionic", "TypeScript", "API integrations"]
   },
   {
