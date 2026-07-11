@@ -84,6 +84,33 @@ export const projects = [
     ],
     live: "https://youtu.be/4n7s4KRU8CM",
     github: "https://github.com/tantohtelmah/tenderops-ai"
+  },
+  {
+    title: "MapleCore Banking Platform",
+    description:
+      "MapleCore is a cloud-ready enterprise core banking platform built with Java 21, Spring Boot, PostgreSQL, and React. Designed as a modular monolith, it simulates the backend systems used by modern financial institutions, providing secure customer onboarding, KYC verification, account management, fund transfers, fraud detection, audit logging, and role-based access control while demonstrating enterprise software engineering best practices.",
+    tech: [
+      "Java 21",
+      "Spring Boot",
+      "Spring Security",
+      "React",
+      "TypeScript",
+      "PostgreSQL",
+      "Spring Data JPA",
+      "Docker",
+      "JWT",
+      "AWS"
+    ],
+    features: [
+      "Customer onboarding and KYC verification workflow",
+      "Chequing, savings, and business account management",
+      "Secure deposits, withdrawals, and fund transfers",
+      "Rule-based fraud detection with compliance review",
+      "Role-based authentication and authorization (JWT)",
+      "Immutable audit logs and transaction history"
+    ],
+    live: "https://youtu.be/YOUR_DEMO_VIDEO",
+    github: "https://github.com/tantohtelmah/MapleCore"
   }
 ];
 
