@@ -1,0 +1,9 @@
+# node files
+node_modules/
+
+# log files
+*.log
+
+# generated files
+dist/
+*.Identifier
