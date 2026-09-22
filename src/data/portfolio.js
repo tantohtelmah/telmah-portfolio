@@ -10,7 +10,7 @@ export const stats = [
 export const skills = [
   { title: "Programming", items: ["Python", "Java", "JavaScript", "TypeScript", "SQL", "C"] },
   { title: "Frontend", items: ["React", "Angular", "Ionic", "Tailwind", "HTML/CSS"] },
-  { title: "Backend", items: ["REST APIs", "Flask", "Node.js", "SQLAlchemy"] },
+  { title: "Backend", items: ["SpringBoot, REST APIs", "Flask", "Node.js", "SQLAlchemy"] },
   { title: "Cloud & DevOps", items: ["AWS", "S3", "EC2", "Elastic Beanstalk", "CloudFront", "Route 53", "Docker", "CI/CD", "Linux"] },
   { title: "Databases", items: ["PostgreSQL", "MySQL", "Snowflake"] },
   { title: "AI / Automation", items: ["OpenAI API", "Gemini", "RAG", "AI Agents", "Prompt Engineering", "ADK 2.0", "Antigravity CLI"] },
