@@ -6,6 +6,13 @@
   from = "/resume.pdf"
   to = "/Telmah_Tantoh_Software_Engineer_Master_Resume.pdf"
   status = 200
+  force = true
+
+[[headers]]
+  for = "/resume.pdf"
+  [headers.values]
+    Content-Type = "application/pdf"
+    Content-Disposition = "attachment; filename=Telmah_Tantoh_Software_Engineer_Resume.pdf"
 
 [[redirects]]
   from = "/*"
