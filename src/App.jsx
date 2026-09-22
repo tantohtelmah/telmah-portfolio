@@ -70,7 +70,7 @@ function Hero() {
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a className="btn-primary" href="#projects">View Projects</a>
-            <a className="btn-secondary" href="/public/Telmah_Tantoh_Software_Engineer_Resume.pdf" download>Download Resume</a>
+            <a className="btn-secondary" href="public/Telmah_Tantoh_Software_Engineer_Master_Resume.pdf" download>Download Resume</a>
             <a className="btn-secondary" href="#contact">Contact Me</a>
           </div>
         </div>
